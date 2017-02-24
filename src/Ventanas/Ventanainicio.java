@@ -7,7 +7,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-public class Ventanaçinicio extends JFrame {
+public class Ventanainicio extends JFrame {
 
 	private JPanel contentPane;
 
@@ -18,7 +18,7 @@ public class Ventanaçinicio extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Ventanaçinicio frame = new Ventanaçinicio();
+					Ventanainicio frame = new Ventanainicio();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -30,7 +30,7 @@ public class Ventanaçinicio extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Ventanaçinicio() {
+	public Ventanainicio() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
